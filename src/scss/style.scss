@@ -1,0 +1,48 @@
+@import 'reset';
+@import 'global';
+
+.app{
+  margin-top: 180px;
+  &__inner{
+    width: 100%;
+  }
+  &__input{
+    width: 100%;
+    background: none;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  &__checkbox{
+    margin: 0 0 15px auto;
+    width: 100%;
+  }
+  &__buttons{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    &-item{
+      background-color: #f60;
+      padding: 8px;
+    }
+  }
+  &__field{
+    text-align: center;
+    &-item{
+      margin-right: 10px;
+    }
+  }
+}
+
+.wrapper{
+  position: relative;
+  width: 230px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.error{
+  position: absolute;
+  right: -115px;
+  top: 5px;
+  color: red;
+}
